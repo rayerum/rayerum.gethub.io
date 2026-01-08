@@ -1,0 +1,73 @@
+body {
+	padding: 2rem;
+	font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
+}
+
+h1 {
+	font-size: 16px;
+	margin-top: 0;
+}
+
+p {
+	color: rgb(107, 114, 128);
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.card {
+	max-width: 620px;
+	margin: 0 auto;
+	padding: 16px;
+	border: 1px solid lightgray;
+	border-radius: 16px;
+}
+.card p:last-child {
+	margin-bottom: 0;
+}
+
+/* Contact Form Styles */
+#contact-form input,
+#contact-form textarea {
+    transition: all 0.3s ease;
+}
+
+#contact-form button {
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-item {
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+/* Skills Section Styles */
+#skills .bg-gray-50 {
+    transition: all 0.3s ease;
+}
+
+#skills .bg-gray-50:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+#skills h3 {
+    transition: color 0.3s ease;
+}
+
+#skills .bg-gray-50:hover h3 {
+    color: #6366f1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .portfolio-filter {
+        margin-bottom: 0.5rem;
+    }
+    
+    #contact-form {
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ray | Virtual Assistant & Website Specialist</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6366f1',
+                        secondary: '#a855f7',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Navigation Component -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-primary">Ray<span class="text-secondary">.</span></span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-primary font-medium hover:text-secondary transition">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-primary transition">About</a>
+                    <a href="#skills" class="text-gray-600 hover:text-primary transition">Skills</a>
+                    <a href="#services" class="text-gray-600 hover:text-primary transition">Services</a>
+                    <a href="#portfolio" class="text-gray-600 hover:text-primary transition">Portfolio</a>
+                    <a href="#contact" class="text-gray-600 hover:text-primary transition">Contact</a>
+</div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-primary">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white pb-3 px-4">
+            <a href="#home" class="block py-2 text-gray-600 hover:text-primary">Home</a>
+            <a href="#about" class="block py-2 text-gray-600 hover:text-primary">About</a>
+            <a href="#skills" class="block py-2 text-gray-600 hover:text-primary">Skills</a>
+            <a href="#services" class="block py-2 text-gray-600 hover:text-primary">Services</a>
+            <a href="#portfolio" class="block py-2 text-gray-600 hover:text-primary">Portfolio</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-primary">Contact</a>
+</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="py-20 bg-gradient-to-r from-primary to-secondary">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Virtual Assistant & Website Specialist</h1>
+                <p class="text-xl text-white opacity-90 mb-8">WordPress • WooCommerce • Wix • Shopify • Strikingly</p>
+                <p class="text-lg text-white mb-10 max-w-2xl mx-auto">I help business owners and teams manage websites, streamline operations, and automate workflows so they can focus on growing their business.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#portfolio" class="bg-white text-primary px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition">View My Work</a>
+                    <a href="#contact" class="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-primary transition">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <img src="http://static.photos/office/640x360/1" alt="Ray - Virtual Assistant" class="rounded-lg shadow-lg w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
+                    <p class="text-lg text-gray-600 mb-6">Hi, I'm Ray, a Virtual Assistant and Website Specialist with experience working across WordPress, Wix, Shopify, WooCommerce, and Strikingly.</p>
+                    <p class="text-lg text-gray-600 mb-6">I support business owners, agencies, and teams by managing websites, handling e-commerce operations, building workflow automations, creating dashboard reports, and providing reliable customer support.</p>
+                    <p class="text-lg text-gray-600">I'm detail-oriented, organized, and focused on delivering consistent, high-quality support that helps businesses run smoothly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">My Skills & Tools</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Proficient in a wide range of tools and platforms to support your business needs</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Design Tools -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                        <i data-feather="pen-tool" class="text-primary mr-2"></i>
+                        Design & Creative Tools
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Adobe Photoshop
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Adobe Illustrator
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Adobe Premiere Pro
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Adobe After Effects
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Canva
+                        </li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <h4 class="font-medium text-gray-700 mb-2">Skills:</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Graphic design and visual assets</li>
+                            <li>• Basic video editing and motion graphics</li>
+                            <li>• Website banners and marketing visuals</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Productivity Tools -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                        <i data-feather="file-text" class="text-primary mr-2"></i>
+                        Productivity & Office Tools
+                    </h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <h4 class="font-medium text-gray-700 mb-2">Microsoft 365</h4>
+                            <ul class="space-y-2">
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-secondary mr-2 w-4 h-4"></i>
+                                    Word
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-secondary mr-2 w-4 h-4"></i>
+                                    Excel
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-secondary mr-2 w-4 h-4"></i>
+                                    PowerPoint
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-secondary mr-2 w-4 h-4"></i>
+                                    Outlook
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-700 mb-2">Google Workspace</h4>
+                            <ul class="space-y-2">
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-secondary mr-2 w-4 h-4"></i>
+                                    Docs
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-secondary mr-2 w-4 h-4"></i>
+                                    Sheets
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-secondary mr-2 w-4 h-4"></i>
+                                    Slides
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-secondary mr-2 w-4 h-4"></i>
+                                    Drive
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <h4 class="font-medium text-gray-700 mb-2">Skills:</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Document creation and formatting</li>
+                            <li>• Spreadsheet management and data organization</li>
+                            <li>• Dashboard reporting (Excel and Google Sheets)</li>
+                            <li>• Data summaries and visual reports</li>
+                            <li>• Presentation design</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Communication Tools -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                        <i data-feather="message-square" class="text-primary mr-2"></i>
+                        Communication & Project Management
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Slack
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Zoom
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Asana
+                        </li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <h4 class="font-medium text-gray-700 mb-2">Skills:</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Team collaboration</li>
+                            <li>• Task tracking and deadline management</li>
+                            <li>• Client communication and reporting</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Automation Tools -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                        <i data-feather="zap" class="text-primary mr-2"></i>
+                        Automation & Email Marketing
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Pabbly
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Zapier
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Flodesk
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Mailchimp
+                        </li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <h4 class="font-medium text-gray-700 mb-2">Skills:</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Workflow automation</li>
+                            <li>• Email list management and segmentation</li>
+                            <li>• Campaign setup and integrations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- E-commerce Tools -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                        <i data-feather="shopping-bag" class="text-primary mr-2"></i>
+                        E-commerce & Marketplaces
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-secondary mr-2"></i>
+                            Etsy
+                        </li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <h4 class="font-medium text-gray-700 mb-2">Skills:</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Product listing optimization</li>
+                            <li>• SEO-friendly titles, tags, and descriptions</li>
+                            <li>• Order processing and customer inquiries</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Availability -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                        <i data-feather="clock" class="text-primary mr-2"></i>
+                        Availability
+                    </h3>
+                    <p class="text-gray-600 mb-4">Available for various types of engagements to support your business needs:</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i data-feather="check-circle" class="text-secondary mr-2"></i>
+                            Freelance projects
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check-circle" class="text-secondary mr-2"></i>
+                            Part-time support
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check-circle" class="text-secondary mr-2"></i>
+                            Long-term collaborations
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+<section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">My Services</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Comprehensive solutions to streamline your online presence and operations</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="bg-primary bg-opacity-10 text-primary w-14 h-14 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="globe" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Website Management</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Website setup, customization, and content updates</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Theme editing and page builder support</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Website maintenance and basic troubleshooting</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Basic SEO and performance optimization</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="bg-primary bg-opacity-10 text-primary w-14 h-14 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="shopping-cart" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">E-commerce Support</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Shopify and WooCommerce store management</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Product uploads and organization</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Etsy product listing optimization</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Order processing and store maintenance</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="bg-primary bg-opacity-10 text-primary w-14 h-14 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="users" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Virtual Assistance</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Email and calendar management</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Data entry and online research</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>File organization and documentation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Administrative support</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="bg-primary bg-opacity-10 text-primary w-14 h-14 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="activity" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Automation & Reporting</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Workflow automation using Pabbly and Zapier</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Email marketing setup and integrations</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Dashboard reporting using Microsoft Excel and Google Sheets</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Data tracking and performance summaries</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="bg-primary bg-opacity-10 text-primary w-14 h-14 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="message-circle" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Customer Support</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Email and chat-based customer support</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Customer inquiry and issue handling</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Ticket follow-ups and escalation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>CRM-supported workflows</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="bg-primary bg-opacity-10 text-primary w-14 h-14 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="tool" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Additional Services</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Graphic design with Canva</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Basic video editing</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Social media content creation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Content writing and editing</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">My Portfolio</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">A showcase of my work across different platforms</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Portfolio Filter Buttons -->
+                <div class="col-span-full mb-8 flex flex-wrap justify-center gap-2">
+                    <button class="portfolio-filter px-4 py-2 rounded-full bg-primary text-white" data-filter="all">All Projects</button>
+                    <button class="portfolio-filter px-4 py-2 rounded-full border border-gray-300 hover:bg-gray-100" data-filter="wordpress">WordPress</button>
+                    <button class="portfolio-filter px-4 py-2 rounded-full border border-gray-300 hover:bg-gray-100" data-filter="wix">Wix</button>
+                    <button class="portfolio-filter px-4 py-2 rounded-full border border-gray-300 hover:bg-gray-100" data-filter="shopify">Shopify</button>
+                    <button class="portfolio-filter px-4 py-2 rounded-full border border-gray-300 hover:bg-gray-100" data-filter="woocommerce">WooCommerce</button>
+                    <button class="portfolio-filter px-4 py-2 rounded-full border border-gray-300 hover:bg-gray-100" data-filter="strikingly">Strikingly</button>
+                </div>
+
+                <!-- Portfolio Items -->
+                <!-- WordPress Projects -->
+                <div class="portfolio-item wordpress">
+                    <div class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+                        <img src="http://static.photos/technology/640x360/1" alt="WordPress Project" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">WordPress Website</h3>
+                            <p class="text-gray-600 mb-4">Theme customization and responsive layouts with content updates and maintenance</p>
+                            <span class="inline-block bg-primary bg-opacity-10 text-primary text-sm px-3 py-1 rounded-full">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wix Projects -->
+                <div class="portfolio-item wix">
+                    <div class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+                        <img src="http://static.photos/technology/640x360/2" alt="Wix Project" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Wix Website</h3>
+                            <p class="text-gray-600 mb-4">Full website build with mobile optimization and content updates</p>
+                            <span class="inline-block bg-primary bg-opacity-10 text-primary text-sm px-3 py-1 rounded-full">Wix</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shopify Projects -->
+                <div class="portfolio-item shopify">
+                    <div class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+                        <img src="http://static.photos/retail/640x360/1" alt="Shopify Project" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Shopify Store</h3>
+                            <p class="text-gray-600 mb-4">Product uploads and store organization with basic SEO optimization</p>
+                            <span class="inline-block bg-primary bg-opacity-10 text-primary text-sm px-3 py-1 rounded-full">Shopify</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WooCommerce Projects -->
+                <div class="portfolio-item woocommerce">
+                    <div class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+                        <img src="http://static.photos/retail/640x360/2" alt="WooCommerce Project" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">WooCommerce Store</h3>
+                            <p class="text-gray-600 mb-4">E-commerce setup with product and order management</p>
+                            <span class="inline-block bg-primary bg-opacity-10 text-primary text-sm px-3 py-1 rounded-full">WooCommerce</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Strikingly Projects -->
+                <div class="portfolio-item strikingly">
+                    <div class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+                        <img src="http://static.photos/technology/640x360/3" alt="Strikingly Project" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Strikingly Website</h3>
+                            <p class="text-gray-600 mb-4">One-page and multi-page site builds with content updates</p>
+                            <span class="inline-block bg-primary bg-opacity-10 text-primary text-sm px-3 py-1 rounded-full">Strikingly</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- WordPress Projects 2 -->
+                <div class="portfolio-item wordpress">
+                    <div class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+                        <img src="http://static.photos/technology/640x360/4" alt="WordPress Blog" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">WordPress Blog</h3>
+                            <p class="text-gray-600 mb-4">Content management and theme customization with SEO optimization</p>
+                            <span class="inline-block bg-primary bg-opacity-10 text-primary text-sm px-3 py-1 rounded-full">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Get In Touch</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Ready to streamline your online presence? Let's work together!</p>
+            </div>
+
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-sm">
+                <form id="contact-form" class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 mb-2">Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="subject" class="block text-gray-700 mb-2">Subject</label>
+                        <input type="text" id="subject" name="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-gray-700 mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
+                    </div>
+                    <button type="submit" class="bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition w-full md:w-auto">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Ray<span class="text-secondary">.</span></h3>
+                    <p class="text-gray-400">Virtual Assistant & Website Specialist helping businesses streamline their online presence.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="#skills" class="text-gray-400 hover:text-white transition">Skills</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition">Services</a></li>
+<li><a href="#portfolio" class="text-gray-400 hover:text-white transition">Portfolio</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i data-feather="mail" class="mr-2 w-5 h-5"></i>
+                            <span>contact@example.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="phone" class="mr-2 w-5 h-5"></i>
+                            <span>+1 (123) 456-7890</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>© 2023 Ray. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+            feather.replace();
+        });
+
+        // Portfolio filtering
+        document.querySelectorAll('.portfolio-filter').forEach(button => {
+            button.addEventListener('click', function() {
+                const filter = this.getAttribute('data-filter');
+                
+                // Update active button
+                document.querySelectorAll('.portfolio-filter').forEach(btn => {
+                    btn.classList.remove('bg-primary', 'text-white');
+                    btn.classList.add('border', 'border-gray-300', 'hover:bg-gray-100');
+                });
+                
+                this.classList.add('bg-primary', 'text-white');
+                this.classList.remove('border', 'border-gray-300', 'hover:bg-gray-100');
+                
+                // Filter items
+                document.querySelectorAll('.portfolio-item').forEach(item => {
+                    if (filter === 'all' || item.classList.contains(filter)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Feather icons
+        feather.replace();
+    </script>
+</body>
+</html>
