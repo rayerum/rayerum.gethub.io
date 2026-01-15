@@ -15,6 +15,13 @@ p {
 	margin-top: 5px;
 }
 
+/* Sticky Header */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 .card {
 	max-width: 620px;
 	margin: 0 auto;
